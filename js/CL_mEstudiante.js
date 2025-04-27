@@ -14,7 +14,7 @@ export default class CL_mEstudiante{
     }
 
     set nombre(nombre){
-        this._nombre = nombre;
+        this._nombre = nombre.toUpperCase();
     }
 
     get nombre(){
@@ -22,7 +22,7 @@ export default class CL_mEstudiante{
     }
 
     set apellido(apellido){
-        this._apellido = apellido;
+        this._apellido = apellido.toUpperCase();
     }
 
     get apellido(){
